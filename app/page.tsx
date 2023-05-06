@@ -1,9 +1,15 @@
 "use client";
+import { Card, Divider, Subtitle, Text } from "@tremor/react";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Lets build a gpt-4 weather app</h1>
+    <main className="">
+      <Card>
+        <Text className="text-6xl font-bold text-center mb-10">Weather AI</Text>
+        <Subtitle className="text-xl text-center">
+          Powered by Next.js 13.3, Tailwind CSS, Tremor 2.0 + More!
+        </Subtitle>
+      </Card>
     </main>
   );
 }

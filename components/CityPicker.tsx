@@ -1,6 +1,7 @@
-type Props = {};
+"use client";
+import { Country, City } from "country-state-city";
 
-const CityPicker = (props: Props) => {
+const CityPicker = () => {
   return <div>City Picker</div>;
 };
 

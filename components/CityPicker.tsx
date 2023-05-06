@@ -44,6 +44,10 @@ const CityPicker = () => {
 
   return (
     <div>
+      <div>
+        <label htmlFor="country">Country</label>
+      </div>
+
       <Select
         className="text-black"
         value={selectedCountry}

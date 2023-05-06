@@ -58,6 +58,20 @@ const CityPicker = () => {
           options={options}
         />
       </div>
+
+      <div className="space-y-2">
+        <div className="flex items-center space-x-2 text-white/80">
+          <GlobeAmericasIcon className="h-5 w-5 text-white" />
+          <label htmlFor="country">City</label>
+        </div>
+
+        <Select
+          className="text-black"
+          value={selectedCountry}
+          onChange={handleSelectedCountry}
+          options={options}
+        />
+      </div>
     </div>
   );
 };

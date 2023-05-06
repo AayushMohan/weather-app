@@ -1,7 +1,7 @@
 type Props = {};
 
 const CityPicker = (props: Props) => {
-  return <div></div>;
+  return <div>City Picker</div>;
 };
 
 export default CityPicker;

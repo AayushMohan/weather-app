@@ -1,0 +1,1 @@
+https://api.open-meteo.com/v1/forecast?latitude=28.65&longitude=77.23&hourly=temperature_2m,relativehumidity_2m,dewpoint_2m,precipitation,rain,showers,uv_index,uv_index_clear_sky,is_day&daily=weathercode,temperature_2m_max,temperature_2m_min,sunrise,sunset,uv_index_max&current_weather=true&timezone=auto
